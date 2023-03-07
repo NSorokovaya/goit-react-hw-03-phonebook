@@ -1,0 +1,37 @@
+.btn {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  outline: none;
+  padding: 3px 6px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #474544;
+  color: #f2f3eb;
+}
+
+.name {
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.list {
+  margin: 20px 0px 0px 0px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
